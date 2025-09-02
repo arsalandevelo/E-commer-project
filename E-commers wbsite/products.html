@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - Bandani</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">BANDHANI</a>
+      <div class="collapse navbar-collapse justify-content-center">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="d-flex">
+        <a href="cart.html" class="btn position-relative">
+          <i class="fas fa-shopping-bag fa-lg"></i>
+          <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Product Grid -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Our T-Shirts</h2>
+    <div class="row g-4">
+      
+      <!-- Example Product -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card product-card">
+          <img src="./skend-kids-boys-t-shirts-half-sleeve-graphic-design-t-shirts-for-kids-boys-environmentally-friendly-boys-t-shirts-perfect-for-any-sport-occasion-kids-t-shirt-prod.webp" height="215" width="auto" class="card-img-top main-img" alt="T-Shirt">
+          <div class="card-body text-center">
+            <h6>kids Classic White </h6>
+            <p>PKR 1200</p>
+            <button class="btn btn-dark btn-sm add-to-cart" data-name="Classic White Tee" data-price="1200">Add to Cart</button>
+  </div>
+        </div>
+      </div>
+
+
+     
+      <!-- Duplicate above structure for 20-25 products -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card product-card">
+          <img src="./IMG_7125.webp" class="card-img-top main-img">
+          <div class="card-body text-center">
+            <h6>Men Black Plain </h6>
+            <p>PKR 1100</p>
+            <button class="btn btn-dark btn-sm add-to-cart" data-name="Black Plain Tee" data-price="1100">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Repeat for all products -->
+      
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p>Privacy Policy | © 2025 Bandani</p>
+    <div>
+      <img src="./footer.png" width="100">
+    </div>
+    <div class="mt-2">
+      <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="text-white"><i class="fab fa-tiktok"></i></a>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
